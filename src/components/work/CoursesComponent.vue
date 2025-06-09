@@ -39,13 +39,13 @@ onMounted(() => {
         class="group relative block w-full overflow-hidden rounded-md transition-all duration-200 hover:shadow-md focus:shadow-md"
       >
         <img
-          :src="`src/assets/logos/avif/${course.img}_ov.avif`"
+          :src="`./logos/avif/${course.img}_ov.avif`"
           :alt="course.title"
           :title="course.title"
           class="absolute top-0 left-0 w-full opacity-0 transition-all duration-200 group-hover:opacity-100 group-focus:opacity-100"
         />
         <img
-          :src="`src/assets/logos/avif/${course.img}.avif`"
+          :src="`./logos/avif/${course.img}.avif`"
           :alt="course.title"
           :title="course.title"
           class="relative z-10 w-full"

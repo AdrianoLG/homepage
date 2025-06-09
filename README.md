@@ -43,7 +43,7 @@ Replace hex colors in `base.css`, :
 - `withbg.ai` for rectangle logos with bg
 - `youtube.ai` for small logos with full image
 
-Images must be saved in `/src/assets/logos/avif/` with _.avif_ format
+Images must be saved in `/public/logos/avif/` with _.avif_ format
 
 ## Project Setup
 

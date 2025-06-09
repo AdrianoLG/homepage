@@ -39,13 +39,13 @@ onMounted(() => {
         class="group/Card relative block w-full overflow-hidden rounded-md transition-all duration-200 hover:shadow-md focus:shadow-md"
       >
         <img
-          :src="`src/assets/logos/avif/${platform.img}_ov.avif`"
+          :src="`./logos/avif/${platform.img}_ov.avif`"
           :alt="platform.title"
           :title="platform.title"
           class="absolute top-0 left-0 w-full opacity-0 transition-all duration-200 group-hover/Card:opacity-100 group-focus/Card:opacity-100"
         />
         <img
-          :src="`src/assets/logos/avif/${platform.img}.avif`"
+          :src="`./logos/avif/${platform.img}.avif`"
           :alt="platform.title"
           :title="platform.title"
           class="relative z-10 w-full"

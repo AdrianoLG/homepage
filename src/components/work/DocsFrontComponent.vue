@@ -39,7 +39,7 @@ onMounted(() => {
         class="group block w-full overflow-hidden rounded-md contrast-100 transition-all duration-200 hover:shadow-md hover:contrast-80 hover:hue-rotate-90 focus:shadow-md focus:contrast-80 focus:hue-rotate-90"
       >
         <img
-          :src="`src/assets/logos/avif/${doc.img}.avif`"
+          :src="`./logos/avif/${doc.img}.avif`"
           :alt="doc.title"
           :title="doc.title"
           class="relative z-10 w-full"

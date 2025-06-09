@@ -39,7 +39,7 @@ onMounted(() => {
         class="group relative block w-full overflow-hidden rounded-full transition-all duration-200 hover:scale-110 hover:rotate-3 hover:shadow-md focus:scale-110 focus:rotate-3 focus:shadow-md"
       >
         <img
-          :src="`src/assets/logos/avif/${podcast.img}.avif`"
+          :src="`./logos/avif/${podcast.img}.avif`"
           :alt="podcast.title"
           :title="podcast.title"
           class="relative z-10 w-full"
