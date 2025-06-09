@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff;
+  --primary: #2f343f;
+  --primary-light: #868ea1;
+  --primary-opposite: #d0cbc0;
+  --secondary: #d3d3d3;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-secondary: var(--secondary);
+  --color-primary-opposite: var(--primary-opposite);
+  --color-background: var(--background);
+}
+
+html {
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html * {
+  box-sizing: border-box;
+  line-height: 1lh;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-primary);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  font-family:
+    Merienda,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html *:focus-visible:not(section):not(div) {
+  outline-style: double;
+  outline-color: var(--color-primary-opposite);
+}
+html section:focus-visible,
+html div:focus-visible {
+  outline: none;
+}
