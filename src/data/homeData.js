@@ -7,7 +7,7 @@ const homeData = {
     },
     {
       title: 'ElDiario',
-      url: 'https://eldiario.com',
+      url: 'https://eldiario.es',
       img: 'eldiario'
     },
     {
